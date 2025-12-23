@@ -1,0 +1,46 @@
+
+package com.sweetcupcake.model;
+public class Cupcake 
+{
+    private int id;
+    private String name;
+    private String category;
+    private double price;
+    private int quantity;
+    private String status;
+    
+    public Cupcake (int id,String name,String category, double price, int quantity,String status)
+    {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.price = price;
+        this.quantity = quantity;
+        this.status = status;
+    }
+    //Getters
+    public int getId()
+    {
+        return id;
+    }
+    public String getName()
+    {
+        return name;
+    }
+    public String getCategory()
+    {
+        return category;
+    }
+    public double getPrice()
+    {
+        return price;
+    }
+    public int getQuantity()
+    {
+        return quantity;
+    }
+    public String getStatus()
+    {
+        return status;
+    }
+}
